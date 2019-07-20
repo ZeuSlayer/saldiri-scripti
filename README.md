@@ -8,6 +8,8 @@ apt install git perl
 # _____________
 git clone https://github.com/ZeuSlayer/saldiri-scripti.git
 # _____________
+cd saldiri-scripti/
+# _____________
 pip2 install -r requirements.txt
 # _____________
 perl Batman.pl

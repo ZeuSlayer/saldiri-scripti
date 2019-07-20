@@ -13,3 +13,6 @@ cd saldiri-scripti/
 pip2 install -r requirements.txt
 # _____________
 perl Batman.pl
+
+
+# XRF BEY

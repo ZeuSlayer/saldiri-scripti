@@ -19,23 +19,20 @@ $endtime = time() + ($time ? $time : 100);
 socket(flood, PF_INET, SOCK_DGRAM, 17);
 
 print BOLD RED<<EOTEXT;
-                   ,,,, 
-             ,;) .';;;;',
- ;;,,_,-.-.,;;'_,|I\;;;/),,_
-  `';;/:|:);{ ;;;|| \;/ /;;;\__
-      L;/-';/ \;;\',/;\/;;;.') \
-      .:`''` - \;;'.__/;;;/  . _'-._ 
-    .'/   \     \;;;;;;/.'_7:.  '). \_
-  .''/     | '._ );}{;//.'    '-:  '.,L
-.'. /       \  ( |;;;/_/         \._./;\   _,
- . /        |\ ( /;;/_/             ';;;\,;;_,
-. /         )__(/;;/_/                (;;'''''
- /        _;:':;;;;:';-._             );
-/        /   \  `'`   --.'-._         \/
+                    Spider
+                     Man
+               
+                   :-,__-;
+                  ;  _    :                    
+                 :  / \   /;                   
+                 ; :   \ / :                   
+                 : ;_.-' `.;                   
+                  \       /                    
+                   `.___.'
 EOTEXT
 
-print "MemeCFW and The Bat Dropped Yo Shit $ip " . ($port ? $port : "Sucking The Clit") . " With " . 
-  ($size ? "$size-Slammed" : "65500") . "Bot" . 
+print "Spider Man $ip ipsini Pingliyor! " . ($port ? $port : "Sucking The Clit") . " Portunu " . 
+  ($size ? "$size-Slammed" : "65500") . "Botla pingliyor" . 
   ($time ? " for $time seconds" : "") . "\n";
 print "Durdurmak için ctrl+c\n" unless $time;
  
